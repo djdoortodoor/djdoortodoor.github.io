@@ -1,9 +1,9 @@
-	<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Killer Buster Live Data</title>
+    <title>Killer Buster Live Updates</title>
 <style>
     * {
         margin: 0;
@@ -20,17 +20,18 @@
 
     .header {
         height: 60px;
-        background: #1f4e79;
+        background-color: #1f4e79;
         color: white;
         display: flex;
-        align-items: center;
         justify-content: center;
+        align-items: center;
         font-size: 24px;
         font-weight: bold;
     }
 
     .sheet-container {
         height: calc(100vh - 60px);
+        width: 100%;
     }
 
     iframe {
@@ -44,9 +45,11 @@
 <div class="header">
     Killer Buster - Live Updates
 </div>
+
 <div class="sheet-container">
     <iframe
-        src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRrj3MkV-vq6g0DlB6xqpzcVqPF8_sZjVDyOGLzUEgZBzPwXGzdiGzB9Q_tB2O_oyCQnFbvlkVXsAgC/pubhtml?gid=0&single=true">
+        src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRrj3MkV-vq6g0DlB6xqpzcVqPF8_sZjVDyOGLzUEgZBzPwXGzdiGzB9Q_tB2O_oyCQnFbvlkVXsAgC/pubhtml?widget=true&headers=false"
+        allowfullscreen>
     </iframe>
 </div>
 </body>
